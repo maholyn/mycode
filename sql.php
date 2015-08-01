@@ -11,7 +11,7 @@ $sqlCommand = "CREATE TABLE IF NOT EXISTS product(
 	UNIQUE KEY product_name (product_name) 
 	) ENGINE = InnoDB";
 
-$sqlCommand = "INSERT INTO product (product_id, product_name, price, description, category, size, product_image, stock) VALUES
+$sqlCommand = "INSERT INTO product (product_id, product_name, price, description, category, size, stock) VALUES
 	(1, 'AZUMAICHI', '38.99', 'Silky, mellow, soft, slight aroma of rice, rounded texture with clean finish.',
 		'Junmai', '720 ml', 30),
 	(2, 'BENI MANSAKU', '52.99', 'Slightly floral with light flavor. Soft and delicate texture.',

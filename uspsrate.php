@@ -3,7 +3,7 @@ function USPSRate($weight, $dest_zip) {
 
 // ========== CHANGE THESE VALUES TO MATCH YOUR OWN ===========
 
-$userName = '678MAHOL0106'; // Your USPS Username
+$userName = 'yourusername'; // Your USPS Username
 $orig_zip = '10014'; // Zipcode you are shipping FROM
 
 // =============== DON'T CHANGE BELOW THIS LINE ===============
